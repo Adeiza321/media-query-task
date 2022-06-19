@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  background-color: white;
+}
+@media screen and (max-width: 1440px) {
+  .header {
+    display: flex;
+    background-color: #ebfaff;
+    background-image: url(images/bg-hero-desktop.svg);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header .btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: Bold;
+    font-size: 15px;
+    color: #091919;
+  }
+  .box-1 {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: #ebfaff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .box-1 h1 {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .box-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .box-1 .sub-con1 {
+    justify-content: left;
+    align-content: left;
+    padding: 30px;
+  }
+  .box-1 .sub-con2 {
+    justify-content: right;
+    align-content: right;
+    padding: 30px;
+  }
+
+  .btn-2 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    align-content: center;
+    background-color: #fe52c0;
+    border-color: #fe52c0;
+    color: white;
+  }
+  .container {
+    display: grid;
+    grid-gap: 3em;
+  }
+
+  .container-1 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #091919;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    /*width: 75%;*/
+    align-content: center;
+    justify-content: center;
+  }
+  .child1 {
+    padding: 20px;
+    margin: 10px;
+  }
+  .container-1 h1 {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .container-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .child2 {
+    padding: 10px;
+    margin: auto;
+  }
+
+  .container-2 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #091919;
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .child-con1 {
+    padding: 20px;
+    margin: 10px;
+  }
+  .container-2 h1 {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .container-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .child-con2 {
+    padding: 10px;
+    margin: auto;
+  }
+
+  .container-3 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #091919;
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .child-con3 {
+    padding: 20px;
+    margin: 10px;
+  }
+  .container-3 h1 {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .container-3 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .child-con4 {
+    padding: 10px;
+    margin: auto;
+  }
+
+  .single-con {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #091919;
+    background-color: #ffffff;
+    padding: -5px;
+    margin: auto;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+  }
+  .single-con h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+  .btn3 {
+    width: 40%;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 20px;
+    align-content: center;
+    background-color: #ff51c0;
+    border-color: #ff51c0;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .parent {
+    background-color: #00252e;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    background-image: url(images/bg-hero-mobile.svg);
+  }
+}
